@@ -1,3 +1,5 @@
+# The use of a Nerd Font is needed to properly show the icons
+
 # Function to determine which icon to display
 function cwd_icon {
   if [ "$PWD" = "$HOME" ]; then
