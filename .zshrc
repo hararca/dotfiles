@@ -35,6 +35,7 @@ COLOR_INPUT=$'%F{015}'
 setopt PROMPT_SUBST
 
 # Set the custom prompt
-export PROMPT='󰚌 ${COLOR_DIR}$(cwd_icon)%~ ${COLOR_GIT}$(parse_git_info)
+export PROMPT='
+󰚌 ${COLOR_DIR}$(cwd_icon)%~ ${COLOR_GIT}$(parse_git_info)
 ${COLOR_ARROW}󰁕 ${COLOR_INPUT}'
 
